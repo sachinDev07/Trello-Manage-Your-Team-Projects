@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --primary: #0065ff;
+    --dark:#091e42;
+    --pure:#ffffff;
+    --secondary:#8993A4;
+    --lightGreeny:#e6fcff;
+    --light:#eae6ff;
+}
+
+.padding {
+    padding: 0 10rem;
+}
+
+
+
+/* Header Section */
+
+#header {
+    background-color: var(--pure) ;
+    display: flex;
+    justify-content: center;
+    transition: .3s ease;
+}
+
+#header:hover {
+    box-shadow: rgba(60, 60, 199, 0.45) 0px 25px 20px -20px;
+}
+
+header {
+    width: 100%;
+    max-width: 1080px;
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header .wrapper h2 {
+    margin-right: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .wrapper h2 a {
+    color: var(--dark);
+}
+
+header .wrapper #info {
+    width: 500px;
+    max-width: 500px;
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header .wrapper #info li {
+    position: relative;
+    margin-right: 1rem;
+    color: var(--dark);
+    cursor: pointer;
+    transition: all .5s ease;
+    font-size: 1rem;
+}
+
+header .wrapper #info li:hover {
+    color: var(--primary);
+}
+header .wrapper #info li a{
+    color: var(--dark);
+    font-size: 1rem;
+}
+
+header .wrapper #info li a:hover {
+    color: var(--primary);
+}
+
+header .wrapper #info li:hover:before {
+    position: absolute;
+    content: "";
+    border-bottom: 4px solid var(--primary);
+    height: 40px;
+    color: #0065ff;
+    width: 100%;  
+    z-index: 1;  
+}
+
+#login {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    min-width: 150px;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#login li {
+    cursor: pointer;
+}
+
+#login li a {
+    color: var(--dark);
+}
+
+
