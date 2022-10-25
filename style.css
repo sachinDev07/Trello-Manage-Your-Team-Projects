@@ -246,8 +246,8 @@ button a {
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid var(--secondary);
-    border-bottom: 2px solid var(--secondary);
+    border-top: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
 }
 
 #discover .wrapper .box {
@@ -283,4 +283,52 @@ button a {
 
 #discover .wrapper .box .details button {
     margin-top: 1.5rem;
+}
+
+
+
+
+/* Call To Action Section */
+
+#call_to_action {
+    padding: 0 14rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#call_to_action .container {
+    width: 100%;
+    max-width: 1080px;
+    padding-top: 5rem;
+}
+
+#call_to_action .container h2 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#call_to_action .container p {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: var(--dark);
+    margin-bottom: .5rem;
+}
+
+#call_to_action .container button {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+#call_to_action .container .big__image {
+    width: 100%;
+}
+
+#call_to_action .container .big__image img {
+    width: 100%;
 }
