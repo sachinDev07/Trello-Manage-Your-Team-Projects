@@ -124,3 +124,103 @@ header .wrapper #info li:hover:before {
 }
 
 
+
+
+
+/* Hero Section */
+
+#hero {
+    background-color: var(--light);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 14rem;
+}
+
+#hero .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .container .left {
+    width: 60%;
+    padding: 7em 0 ;
+}
+
+#hero .container .left h1 {
+    font-size: 2.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+}
+
+#hero .container .left p {
+    font-size: 1.3rem;
+    margin-top: .3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+}
+
+#hero .container .left .email input {
+    width: 65%;
+    margin-top: 3rem;
+    border: none;
+    padding: 1em 1em;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+
+#hero .container .left .email button {
+    padding: 1.2em 1em;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#hero .container .left .email button:hover{
+    background-color: var(--dark);
+}
+
+#hero .container .left .email button a {
+    color: var(--pure);
+    font-size: 1rem;
+}
+
+#hero .container .left .video__div {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+
+#hero .container .left .video__div a {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+#hero .container .left .video__div a:hover {
+    color: #0065ff;
+}
+
+#hero .container .left .video__div i {
+    cursor: pointer;
+    margin-left: .2rem;
+}
+
+
+#hero .container .right {
+    width: 50%;
+    padding: 5em 0 ;
+}
+
+#hero .container .right .hero__image {
+    width: 70%;
+}
+
+#hero .container .right .hero__image img {
+    width: 100%;
+    height: auto;
+    margin-left: 9rem;
+}
