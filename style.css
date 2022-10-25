@@ -335,3 +335,53 @@ button a {
 #call_to_action .container .big__image img {
     width: 100%;
 }
+
+
+
+
+/* Brands Section */
+
+#brand {
+    padding: 0 14rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#brand .container {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+#brand .container p {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+    margin-bottom: 3rem;
+}
+
+#brand .container .four__brands,
+#brand .container .two_brands {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand .container .four__brands {
+    margin-bottom: 2rem;
+}
+
+#brand .container .four__brands img {
+    margin-right: 1rem;
+}
+
+#brand .container .two_brands .zoom{
+    width: 30%;
+}
