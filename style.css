@@ -24,11 +24,16 @@
 /* Header Section */
 
 #header {
+    top: 0;
+    position: fixed;
+    width: 100vw;
     background-color: var(--pure) ;
     display: flex;
     justify-content: center;
     transition: .3s ease;
+    z-index: 100;
 }
+
 
 #header:hover {
     box-shadow: rgba(60, 60, 199, 0.45) 0px 25px 20px -20px;
@@ -132,13 +137,14 @@ header .wrapper #info li:hover:before {
 #hero {
     background-color: var(--light);
     width: 100%;
-    height: 80vh;
     display: flex;
     justify-content: center;
     padding: 0 14rem;
 }
 
 #hero .container {
+    max-width: 1080px;
+    min-width: 700px;
     display: flex;
     justify-content: space-between;
 }
@@ -170,7 +176,7 @@ header .wrapper #info li:hover:before {
     margin-right: 1.5rem;
 }
 
-#hero .container .left .email button {
+button {
     padding: 1.2em 1em;
     background-color: var(--primary);
     border: none;
@@ -179,11 +185,11 @@ header .wrapper #info li:hover:before {
     transition: all .3s ease;
 }
 
-#hero .container .left .email button:hover{
+button:hover{
     background-color: var(--dark);
 }
 
-#hero .container .left .email button a {
+button a {
     color: var(--pure);
     font-size: 1rem;
 }
@@ -223,4 +229,58 @@ header .wrapper #info li:hover:before {
     width: 100%;
     height: auto;
     margin-left: 9rem;
+}
+
+
+
+
+/* Discover Section */
+
+#discover {
+    padding: 0 14rem;
+    background-color: var(--pure);
+    
+}
+
+#discover .wrapper {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--secondary);
+    border-bottom: 2px solid var(--secondary);
+}
+
+#discover .wrapper .box {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#discover .wrapper .box .icon {
+    width: 80%;
+    margin-right: 2rem;
+}
+
+#discover .wrapper .box .icon img {
+    width: 100%;
+}
+
+
+#discover .wrapper .box .details span {
+    color: var(--dark);
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+#discover .wrapper .box .details p {
+    font-size: 1rem;
+    margin-top: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+}
+
+#discover .wrapper .box .details button {
+    margin-top: 1.5rem;
 }
