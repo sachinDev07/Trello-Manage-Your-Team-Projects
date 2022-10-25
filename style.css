@@ -239,10 +239,13 @@ button a {
 #discover {
     padding: 0 14rem;
     background-color: var(--pure);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #discover .wrapper {
+    max-width: 1080px;
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
