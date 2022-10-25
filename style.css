@@ -393,6 +393,8 @@ button a {
 
 #feature {
     padding: 3rem 14rem;
+    display: flex;
+    justify-content: center;
 }
 
 #feature .container {
