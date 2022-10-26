@@ -479,3 +479,53 @@ button a {
     cursor: pointer;
 }
 
+
+
+
+/* Email Section */
+
+#email {
+    padding: 3rem 14rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#email .container {
+    width: 100%;
+    max-width: 1080px;
+    background: linear-gradient(rgb(64, 50, 148), rgb(76, 154, 255)) no-repeat;
+    padding: 2rem 3rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#email .container h2 {
+    color: var(--pure);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#email .container .email-content {
+    margin-top: 2rem;
+}
+
+#email .container .email-content input {
+    padding: 1rem 12rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+
+#email .container .email-content input:focus {  
+    outline: none;
+}
+
+#email .container .email-content button {
+    background-color: var(--light);
+}
+
+#email .container .email-content button a {
+    color: var(--dark);
+    font-weight: 400;
+}
