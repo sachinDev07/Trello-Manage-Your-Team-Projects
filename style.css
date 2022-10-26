@@ -529,3 +529,30 @@ button a {
     color: var(--dark);
     font-weight: 400;
 }
+
+
+
+/* Store Section */
+
+#store {
+    padding: 3rem 14rem;
+    display: flex;
+    justify-content: center;
+}
+
+#store .container {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 108, 132);
+    font-size: .8rem;
+}
+
+#store .container .app__store img,
+#store .container .google__play img {
+    width: 170px;
+    margin-left: 2rem;
+}
