@@ -538,6 +538,7 @@ button a {
     padding: 3rem 14rem;
     display: flex;
     justify-content: center;
+    padding-bottom: .5rem;
 }
 
 #store .container {
@@ -555,4 +556,93 @@ button a {
 #store .container .google__play img {
     width: 170px;
     margin-left: 2rem;
+}
+
+
+/* Footer Section */
+
+#footer {
+    padding: 0rem 14rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--pure);
+}
+
+#footer .container {
+    width: 100%;
+    max-width: 1080px;
+}
+
+#footer .container .ist__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--secondary);
+}
+
+#footer .container .ist__box .box {
+    width: 200px;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#footer .container .ist__box .box:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+
+#footer .container .ist__box .box h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+
+#footer .container .ist__box .box a {
+    color: var(--light);
+   padding-top: 1rem;
+   margin-left: .5rem;
+}
+
+#footer .container .ist__box .box p {
+    margin-top: 1rem;
+    font-size: .8rem;
+    line-height: 1.6;
+}
+
+#footer .container .second__box {
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    padding: 1.5rem 0;
+}
+
+#footer .container .second__box a {
+    color: var(--pure);
+}
+
+#footer .container .second__box .globe i,
+#footer .container .second__box .globe a {
+    margin-right: 1rem;
+}
+
+#footer .container .second__box .privacy_terms {
+    display: flex;
+}
+
+#footer .container .second__box .privacy_terms a {
+    margin-right: 1rem;
+    transition: all 0.3s ;
+}
+
+#footer .container .second__box .privacy_terms a:hover {
+    text-decoration: underline;
+}
+
+#footer .container .second__box a {
+    margin-right: 1rem;
 }
