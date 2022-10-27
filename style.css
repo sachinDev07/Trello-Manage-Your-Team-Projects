@@ -646,3 +646,70 @@ button a {
 #footer .container .second__box a {
     margin-right: 1rem;
 }
+
+
+
+
+
+
+/* --------------- Media Queries --------------- */
+
+
+/* Ipad Device */
+
+@media (max-width:991px) {
+
+    .padding {
+        padding: 0 1rem;
+    }
+
+    header .wrapper #info,
+    #login {
+        display: none;
+    }
+
+    #header {
+        justify-content: flex-start;
+        width: 100vw;
+        position: relative;
+    }
+
+    header {
+        width: 100%;
+        max-width: 407px;
+        min-width: 407px;
+        padding: 0.5em 0;
+        text-align: start;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper .hamburger h2 {
+        font-size: 1.2rem;
+        margin-right: 0;
+    }
+
+    .wrapper .hamburger {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .wrapper .hamburger i {
+        cursor: pointer;
+    }
+
+    .wrapper__2 {
+        display: none;
+    }
+
+    
+
+
+
+
+}
