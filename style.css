@@ -705,20 +705,24 @@ button a {
     #header {
         position: relative;
         justify-content: flex-start;
-        width: 555px;
-        max-width: 555px ;
+        width: 100vw;
+        max-width: 553px ;
     }
     
     #header .b__box.padding {
         padding: 0 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     
     header {
-        
         width: 100%;
-        max-width: none;
+        max-width: 553px;
+        min-width: 540px;
         padding: 1em 0;
         text-align: start;
+
     }
 
     .wrapper {
@@ -738,6 +742,11 @@ button a {
 
     }
 
+    header .wrapper h2 a {
+        color: var(--dark);
+        margin-left: .5rem;
+    }
+
     .wrapper .hamburger i {
         cursor: pointer;
     }
@@ -745,7 +754,7 @@ button a {
     .wrapper__2 {
         position: fixed;
         top: -687px;
-        width: 555px;
+        width: 554px;
         height: 67vh;
         padding: 1em 1.4em;
         background-color: var(--pure);
@@ -808,14 +817,14 @@ button a {
     /* Hero Section */
 
     #hero {
-        width: 555px;
+        width: 553px;
         padding: 0 1rem;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     #hero .container {
-        width: 555px;
-        max-width: 555px;
+        width: 100%;
+        max-width: 553px;
         min-width: 536px;
     }
 
@@ -863,14 +872,16 @@ button a {
     /* Discover Section */
 
     #discover {
+        width: 553px;
         padding: 0 1rem;
         justify-content: flex-start;
     }
 
     #discover .wrapper {
-        width: 541px;
-        max-width: 555px;
+        width: 100%;
+        max-width: 553px;
         flex-direction: column;
+
     }
 
     #discover .wrapper .box {
@@ -900,7 +911,7 @@ button a {
 
     #call_to_action {
         padding: 0 1rem;
-        width: 555px;
+        width: 553px;
         display: flex;
         justify-content: flex-start;
         text-align: center;
@@ -908,7 +919,7 @@ button a {
 
     #call_to_action .container {
         width: 100%;
-        max-width: 555px;
+        max-width: 553px;
         padding-top: 5rem;
     }
 
@@ -926,18 +937,18 @@ button a {
     /* Brand Section */
 
     #brand {
+        width: 553px;
         padding: 0 1rem;
-        width: 555px;
     }
 
     #brand .container {
         width: 100%;
-        max-width: 555px;
+        max-width: 553px;
     }
 
     #brand .b_companies {
         width: 100%;
-        max-width: 555px;
+        max-width: 553px;
     }
 
     #brand .container .four__brands {
@@ -958,15 +969,15 @@ button a {
     /* Feature Section */
 
     #feature {
+        width: 553px;
         padding: 3rem 1rem;
         display: flex;
-        width: 555px;
         justify-content: center;
     }
 
     #feature .container {
         width: 100%;
-        max-width: 555px;
+        max-width: 553px;
     }
 
     #feature .wrapper .inner__box {
@@ -1006,14 +1017,15 @@ button a {
     /* Email Section */
 
     #email {
+        width: 553px;
         padding: 3rem 1rem;
         display: flex;
-        width: 555px;
         justify-content: center;
     }
 
     #email .container {
-        max-width: 555px;
+        width: 100%;
+        max-width: 553px;
         padding: 2rem 2rem;
     }
 
@@ -1039,13 +1051,13 @@ button a {
     /* Store Section */
 
     #store {
-        width: 555px;
+        width: 553px;
         padding: 3rem 1rem;
     }
 
     #store .container {
         width: 100%;
-        max-width: 555px;
+        max-width: 553px;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
@@ -1072,13 +1084,13 @@ button a {
     /* Footer Section */
 
     #footer {
+        width: 553px;
         padding: 0rem 1rem;
-        width: 555px;
     }
 
     #footer .container {
         width: 100%;
-        max-width: 555px;
+        max-width: 553px;
     }
 
     #footer .container .ist__box {
