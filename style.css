@@ -833,6 +833,10 @@ button a {
         margin-top: .5rem;
     }
 
+    button {
+        padding: 1em 1em;
+    }
+
     #hero .container .right {
         padding: 3em 0;
     }
@@ -852,6 +856,41 @@ button a {
 
     #hero .container .left .video__div {
         margin-top: 1rem;
+    }
+
+
+
+    /* Discover Section */
+
+    #discover {
+        padding: 0 1rem;
+        justify-content: flex-start;
+    }
+
+    #discover .wrapper {
+        width: 541px;
+        max-width: 555px;
+        flex-direction: column;
+    }
+
+    #discover .wrapper .box {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    #discover .wrapper .box .icon {
+        width: 20%;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    #discover .wrapper .box .details span {
+        white-space: nowrap;
+    }
+
+    #discover .wrapper .box .details p {
+        width: 440px;
     }
 
     
