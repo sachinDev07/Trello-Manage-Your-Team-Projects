@@ -952,7 +952,53 @@ button a {
         width: 29%;
     }
 
+
+
+
+    /* Feature Section */
+
+    #feature {
+        padding: 3rem 1rem;
+        display: flex;
+        width: 555px;
+        justify-content: center;
+    }
+
+    #feature .container {
+        width: 100%;
+        max-width: 555px;
+    }
+
+    #feature .wrapper .inner__box {
+        margin-top: 5rem;;
+    }
+
+    #feature .container .ist__box h2 {
+        width: 400px;
+    }
+
+    #feature .f__image .web__img {
+        width: 230px;
+    }
+
+    #feature .container .ist__box p {
+        font-size: 1rem;
+       width: 280px;
+    }
+
+    #feature .wrapper .inner__box .f__details h2 {
+        font-size: 1.5rem;
+        margin-top: 0.5rem
+    }
+
+    #feature .wrapper .inner__box .f__details p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
     
+    #feature .wrapper .inner__box .f__details strong {
+        font-size: 1.2rem;
+    }
 
 
 
