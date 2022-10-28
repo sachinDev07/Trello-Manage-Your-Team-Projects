@@ -920,6 +920,38 @@ button a {
         font-size: 1rem;
     }
 
+
+
+
+    /* Brand Section */
+
+    #brand {
+        padding: 0 1rem;
+        width: 555px;
+    }
+
+    #brand .container {
+        width: 100%;
+        max-width: 555px;
+    }
+
+    #brand .b_companies {
+        width: 100%;
+        max-width: 555px;
+    }
+
+    #brand .container .four__brands {
+        margin-bottom: .2rem;
+    }
+
+    #brand .container .four__brands, #brand .container .two_brands {
+        flex-wrap: wrap;
+    }
+
+    #brand .container .four__brands img {
+        width: 29%;
+    }
+
     
 
 
