@@ -1002,4 +1002,37 @@ button a {
 
 
 
+
+    /* Email Section */
+
+    #email {
+        padding: 3rem 1rem;
+        display: flex;
+        width: 555px;
+        justify-content: center;
+    }
+
+    #email .container {
+        max-width: 555px;
+        padding: 2rem 2rem;
+    }
+
+    #email .container h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+
+    #email .container .email-content {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    #email .container .email-content input {
+        padding: 1rem 8rem;
+        padding-left: 1rem;
+        
+    }
+
 }
