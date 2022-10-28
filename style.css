@@ -1035,4 +1035,38 @@ button a {
         
     }
 
+
+    /* Store Section */
+
+    #store {
+        width: 555px;
+        padding: 3rem 1rem;
+        /* flex-direction: column; */
+    }
+
+    #store .container {
+        width: 100%;
+        max-width: 555px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #store .container h2 {
+        margin-bottom: 2rem;
+    }
+
+    #store .container .app__store img, #store .container .google__play img {
+        width: 160px;
+    }
+
+    #store .container .app__store img, #store .container .google__play img {
+        margin-left: 1rem;
+    }
+
+    #store .container .app__store img {
+        margin-left: 0;
+    }
+
+
 }
