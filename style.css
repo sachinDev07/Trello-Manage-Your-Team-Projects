@@ -1041,7 +1041,6 @@ button a {
     #store {
         width: 555px;
         padding: 3rem 1rem;
-        /* flex-direction: column; */
     }
 
     #store .container {
@@ -1066,6 +1065,62 @@ button a {
 
     #store .container .app__store img {
         margin-left: 0;
+    }
+
+
+
+    /* Footer Section */
+
+    #footer {
+        padding: 0rem 1rem;
+        width: 555px;
+    }
+
+    #footer .container {
+        width: 100%;
+        max-width: 555px;
+    }
+
+    #footer .container .ist__box {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    #footer .container .ist__box .box {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        padding: 1rem 0rem;
+    }
+
+    .space__between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;     
+    }
+
+    #footer .container .ist__box .box a {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+    }
+
+    #footer .container .second__box {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    #footer .container .second__box .privacy_terms {
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    #footer .container .second__box .privacy_terms a {
+        margin-bottom: .5rem;
+    }
+
+    #footer .container .second__box .social__media {
+        display: flex;
+        justify-content: center;
     }
 
 
