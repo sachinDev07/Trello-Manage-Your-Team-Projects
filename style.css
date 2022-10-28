@@ -703,10 +703,10 @@ button a {
     }
 
     #header {
+        position: relative;
         justify-content: flex-start;
         width: 555px;
-        position: relative;
-        
+        max-width: 555px ;
     }
     
     #header .b__box.padding {
@@ -744,7 +744,7 @@ button a {
 
     .wrapper__2 {
         position: fixed;
-        top: -672px;
+        top: -687px;
         width: 555px;
         height: 67vh;
         padding: 1em 1.4em;
@@ -805,7 +805,56 @@ button a {
 
     
 
+    /* Hero Section */
 
+    #hero {
+        width: 555px;
+        padding: 0 1rem;
+        justify-content: flex-start;
+    }
+
+    #hero .container {
+        width: 555px;
+        max-width: 555px;
+        min-width: 536px;
+    }
+
+    #hero .container .left {
+        width: 50%;
+        padding: 3em 0;
+    }
+
+    #hero .container .left h1 {
+        font-size: 2rem;
+    }
+
+    #hero .container .left p {
+        font-size: 1rem;
+        margin-top: .5rem;
+    }
+
+    #hero .container .right {
+        padding: 3em 0;
+    }
+
+    #hero .container .right .hero__image {
+        width: 60%;
+    }
+
+    #hero .container .right .hero__image img {
+        margin-left: 5.5rem;
+    }
+
+    #hero .container .left .email input {
+        width: 150%;
+        margin-bottom: 1.2rem;
+    }
+
+    #hero .container .left .video__div {
+        margin-top: 1rem;
+    }
+
+    
 
 
 
