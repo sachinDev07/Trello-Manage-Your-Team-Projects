@@ -893,6 +893,33 @@ button a {
         width: 440px;
     }
 
+
+
+
+    /* Call to Action */
+
+    #call_to_action {
+        padding: 0 1rem;
+        width: 555px;
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    #call_to_action .container {
+        width: 100%;
+        max-width: 555px;
+        padding-top: 5rem;
+    }
+
+    #call_to_action .container h2 {
+        font-size: 1.7rem;
+    }
+
+    #call_to_action .container p {
+        font-size: 1rem;
+    }
+
     
 
 
