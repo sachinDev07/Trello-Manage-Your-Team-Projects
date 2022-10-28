@@ -20,6 +20,15 @@
 }
 
 
+#close,
+#bars {
+    display: none;
+}
+
+.wrapper__2 {
+    display: none;
+}
+
 
 /* Header Section */
 
@@ -32,6 +41,11 @@
     justify-content: center;
     transition: .3s ease;
     z-index: 100;
+}
+
+#header .b__box.padding {
+    width: 100%;
+    padding: 0 14rem;
 }
 
 
@@ -668,17 +682,42 @@ button a {
         display: none;
     }
 
-    #header {
-        justify-content: flex-start;
-        width: 100vw;
-        position: relative;
+    #bars {
+        display: block;
     }
 
+    #bars.hide {
+        display: none;
+    }
+
+    #close {
+        display: block;
+    }
+
+    .wrapper__2 {
+        display: block;
+    }
+
+    header .wrapper .hamburger {
+        width: 524px;
+    }
+
+    #header {
+        justify-content: flex-start;
+        width: 555px;
+        position: relative;
+        
+    }
+    
+    #header .b__box.padding {
+        padding: 0 1rem;
+    }
+    
     header {
+        
         width: 100%;
-        max-width: 407px;
-        min-width: 407px;
-        padding: 0.5em 0;
+        max-width: none;
+        padding: 1em 0;
         text-align: start;
     }
 
@@ -687,7 +726,7 @@ button a {
     }
 
     .wrapper .hamburger h2 {
-        font-size: 1.2rem;
+        font-size: 1.9rem;
         margin-right: 0;
     }
 
@@ -704,10 +743,68 @@ button a {
     }
 
     .wrapper__2 {
-        display: none;
+        position: fixed;
+        top: -672px;
+        width: 555px;
+        height: 67vh;
+        padding: 1em 1.4em;
+        background-color: var(--pure);
+        transition: 0.5s;
+    }
+
+    .wrapper__2.active {
+        top: 55px;
+    }
+    .xmark {
+        position: absolute;
+        top: -32px;
+        margin-left: 485px;
+    }
+
+    #navbar2 li {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid var(--secondary);
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        color: var(--dark);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #navbar2 li a {
+        color: var(--dark);
+    }
+
+    #navbar2 .getlogin {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    #navbar2 .getlogin a {
+        color: var(--light);
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #navbar2 .fh__get {
+        background-color: var(--primary);
+        margin: 1rem 0;
+        border-radius: 5px;
+    }
+
+    #navbar2 .fh_login {
+        border: 1px solid var(--primary);
+        border-radius: 5px;
+    }
+
+    #navbar2 .fh_login a {
+        color: var(--dark);
     }
 
     
+
 
 
 
