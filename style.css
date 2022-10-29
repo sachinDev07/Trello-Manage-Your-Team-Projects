@@ -1283,5 +1283,38 @@ button a {
 
 
 
+    /* Discover Section */
+
+    #discover {
+        width: 266px;
+    }
+
+    #discover .wrapper {
+        width: 100%;
+        max-width: 266px;
+    }
+
+    #discover .wrapper .box .details span {
+        font-size: 1.1rem;
+    }
+
+    #discover .wrapper .box .details p {
+        width: 100%;
+    }
+
+    #discover .wrapper .box .details p {
+        font-size: .8rem;
+    }
+
+    button {
+        padding: 1em 1em;
+    }
+
+    button a {
+        font-size: .8rem;
+    }
+
+
+
 
 }
