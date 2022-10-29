@@ -1145,10 +1145,47 @@ button a {
 
 @media (max-width: 480px) {
 
+    /* Navigation Section */
+
+    .wrapper__2 {
+        top: 0;
+        position: fixed;
+        top: -687px;
+        width: 266px;
+        height: 67vh;
+        padding: 1em 0.5em;
+        background-color: var(--pure);
+        transition: 0.5s;
+    }
+
+    .wrapper__2.active {
+        top: 36px;
+    }
+
+    .xmark {
+        margin-left: 227px;
+    }
+
+    #navbar2 li {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #navbar2 li:nth-child(5) {
+        border-bottom: .5px solid var(--secondary);
+        
+    }
+
+
+
+    /* Header Section */
+
     #header {
-        justify-content: center;
+        top: 0;
+        position: fixed;
         width: 100vw;
         max-width: 266px;
+        justify-content: center;
     }
 
     #header .b__box.padding {
@@ -1177,7 +1214,7 @@ button a {
 
 
 
-    
+
 
     /* Hero Section */
 
@@ -1185,6 +1222,7 @@ button a {
         width: 266px;
         padding: 0 1rem;
         justify-content: center;
+        margin-top: 3rem;
     }
 
     #hero .container {
