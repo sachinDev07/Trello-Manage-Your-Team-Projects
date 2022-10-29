@@ -699,14 +699,15 @@ button a {
     }
 
     header .wrapper .hamburger {
-        width: 524px;
+        width: 768px;
     }
 
     #header {
-        position: relative;
+        top: 0;
+        position: fixed;
         justify-content: flex-start;
         width: 100vw;
-        max-width: 553px ;
+        max-width: 768px ;
     }
     
     #header .b__box.padding {
@@ -718,7 +719,7 @@ button a {
     
     header {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
         min-width: 540px;
         padding: 1em 0;
         text-align: start;
@@ -743,8 +744,7 @@ button a {
     }
 
     header .wrapper h2 a {
-        color: var(--dark);
-        margin-left: .5rem;
+        margin-left: 0rem;
     }
 
     .wrapper .hamburger i {
@@ -753,9 +753,9 @@ button a {
 
     .wrapper__2 {
         position: fixed;
-        top: -687px;
-        width: 554px;
-        height: 67vh;
+        top: -1023px;
+        width: 768px;
+        height: 100vh;
         padding: 1em 1.4em;
         background-color: var(--pure);
         transition: 0.5s;
@@ -764,10 +764,11 @@ button a {
     .wrapper__2.active {
         top: 55px;
     }
+
     .xmark {
         position: absolute;
         top: -32px;
-        margin-left: 485px;
+        margin-left: 705px;
     }
 
     #navbar2 li {
@@ -817,14 +818,15 @@ button a {
     /* Hero Section */
 
     #hero {
-        width: 553px;
+        width: 768px;
         padding: 0 1rem;
         justify-content: center;
+        margin-top: 4rem;
     }
 
     #hero .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
         min-width: 536px;
     }
 
@@ -834,11 +836,11 @@ button a {
     }
 
     #hero .container .left h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     #hero .container .left p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-top: .5rem;
     }
 
@@ -872,14 +874,14 @@ button a {
     /* Discover Section */
 
     #discover {
-        width: 553px;
+        width: 768px;
         padding: 0 1rem;
         justify-content: flex-start;
     }
 
     #discover .wrapper {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
         flex-direction: column;
 
     }
@@ -897,11 +899,13 @@ button a {
     }
 
     #discover .wrapper .box .details span {
+        font-size: 2.3rem;
         white-space: nowrap;
     }
 
     #discover .wrapper .box .details p {
-        width: 440px;
+        width: 80%;
+        font-size: 1.5rem;
     }
 
 
@@ -911,7 +915,7 @@ button a {
 
     #call_to_action {
         padding: 0 1rem;
-        width: 553px;
+        width: 768px;
         display: flex;
         justify-content: flex-start;
         text-align: center;
@@ -919,16 +923,20 @@ button a {
 
     #call_to_action .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
         padding-top: 5rem;
     }
 
     #call_to_action .container h2 {
-        font-size: 1.7rem;
+        font-size: 2.5rem;
     }
 
     #call_to_action .container p {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+
+    button {
+        padding: 1.2em 3em;
     }
 
 
@@ -937,18 +945,22 @@ button a {
     /* Brand Section */
 
     #brand {
-        width: 553px;
+        width: 738px;
         padding: 0 1rem;
     }
 
     #brand .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 738px;
+    }
+
+    #brand .container p {
+        font-size: 2rem;
     }
 
     #brand .b_companies {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
     }
 
     #brand .container .four__brands {
@@ -969,7 +981,7 @@ button a {
     /* Feature Section */
 
     #feature {
-        width: 553px;
+        width: 768px;
         padding: 3rem 1rem;
         display: flex;
         justify-content: center;
@@ -977,7 +989,11 @@ button a {
 
     #feature .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
+    }
+
+    #feature .container .ist__box {
+        width: 60%;
     }
 
     #feature .wrapper .inner__box {
@@ -985,30 +1001,35 @@ button a {
     }
 
     #feature .container .ist__box h2 {
-        width: 400px;
+        width: 100%;
+        font-size: 2.5rem;
     }
 
     #feature .f__image .web__img {
-        width: 230px;
+        width: 324px;
     }
 
     #feature .container .ist__box p {
-        font-size: 1rem;
-       width: 280px;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    #feature .wrapper .inner__box .f__details span {
+        font-size: 1.2rem;
     }
 
     #feature .wrapper .inner__box .f__details h2 {
-        font-size: 1.5rem;
+        font-size: 2.3rem;
         margin-top: 0.5rem
     }
 
     #feature .wrapper .inner__box .f__details p {
         margin-top: 1rem;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     
     #feature .wrapper .inner__box .f__details strong {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
 
 
@@ -1017,7 +1038,7 @@ button a {
     /* Email Section */
 
     #email {
-        width: 553px;
+        width: 768px;
         padding: 3rem 1rem;
         display: flex;
         justify-content: center;
@@ -1025,12 +1046,12 @@ button a {
 
     #email .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
         padding: 2rem 2rem;
     }
 
     #email .container h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 400;
         line-height: 1.7;
     }
@@ -1042,7 +1063,7 @@ button a {
     }
 
     #email .container .email-content input {
-        padding: 1rem 8rem;
+        padding: 1rem 14rem;
         padding-left: 1rem;
         
     }
@@ -1051,24 +1072,27 @@ button a {
     /* Store Section */
 
     #store {
-        width: 553px;
+        width: 768px;
         padding: 3rem 1rem;
     }
 
     #store .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        flex-wrap: wrap;
     }
 
     #store .container h2 {
+        font-size: 2rem;
         margin-bottom: 2rem;
+        display: block;
     }
 
     #store .container .app__store img, #store .container .google__play img {
-        width: 160px;
+        width: 294px;
     }
 
     #store .container .app__store img, #store .container .google__play img {
@@ -1084,13 +1108,13 @@ button a {
     /* Footer Section */
 
     #footer {
-        width: 553px;
+        width: 768px;
         padding: 0rem 1rem;
     }
 
     #footer .container {
         width: 100%;
-        max-width: 553px;
+        max-width: 768px;
     }
 
     #footer .container .ist__box {
@@ -1110,13 +1134,22 @@ button a {
         align-items: center;     
     }
 
+    #footer .container .ist__box .box span {
+        font-size: 1.8rem;
+    }
+
+    #footer .container .ist__box .box p {
+        font-size: 1.2rem;
+    }
+
     #footer .container .ist__box .box a {
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding-top: 0rem;
     }
 
     #footer .container .second__box {
         flex-direction: column;
+        font-size: 1.3rem;
         padding: 1rem 0;
     }
 
