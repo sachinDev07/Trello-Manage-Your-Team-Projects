@@ -1292,6 +1292,8 @@ button a {
     #discover .wrapper {
         width: 100%;
         max-width: 266px;
+        padding-top: 3rem;
+        padding-bottom: 0rem;
     }
 
     #discover .wrapper .box .details span {
@@ -1311,6 +1313,27 @@ button a {
     }
 
     button a {
+        font-size: .8rem;
+    }
+
+
+
+    /* Call-to-action Section */
+
+    #call_to_action {
+        width: 266px;
+    }
+
+    #call_to_action .container {
+        max-width: 266px;
+        padding-top: 3rem;
+    }
+
+    #call_to_action .container h2 {
+        font-size: 1rem;
+    }
+
+    #call_to_action .container p {
         font-size: .8rem;
     }
 
