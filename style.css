@@ -1490,5 +1490,35 @@ button a {
 
 
 
+    /* Footer Section */
+
+    #footer {
+        width: 266px;
+    }
+
+    #footer .container {
+        max-width: 266px;
+    }
+
+    #footer .container .ist__box .box h1 {
+        font-size: 1.5rem;
+    }
+
+    #footer .container .ist__box .box a {
+        font-size: 1.2rem;
+    }
+
+    #footer .container .ist__box .box p {
+        margin-top: .9rem;
+    }
+
+    #footer .container .ist__box .box {
+        font-size: .8rem;
+    }
+
+    #footer .container .second__box {
+        font-size: 0.7rem;
+    }
+
 
 }
