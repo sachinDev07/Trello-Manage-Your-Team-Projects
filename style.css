@@ -1137,3 +1137,113 @@ button a {
 
 
 }
+
+
+
+
+/* Mobile Device */
+
+@media (max-width: 480px) {
+
+    #header {
+        justify-content: center;
+        width: 100vw;
+        max-width: 266px;
+    }
+
+    #header .b__box.padding {
+        padding: 0.5em 1rem;
+    }
+
+    header {
+        width: 100%;
+        max-width: 266px;
+        min-width: 253px;
+        padding: 0em 0;
+    }
+
+    header .wrapper .hamburger {
+        width: 252px;
+    }
+
+    header .wrapper h2 a {
+        color: var(--dark);
+        margin-left: 0rem;
+    }
+
+    .wrapper .hamburger h2 {
+        font-size: 1.5rem;
+    }
+
+
+
+    
+
+    /* Hero Section */
+
+    #hero {
+        width: 266px;
+        padding: 0 1rem;
+        justify-content: center;
+    }
+
+    #hero .container {
+        width: 100%;
+        max-width: 266px;
+        min-width: 256px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #hero .container .right {
+        width: 100%;
+        padding: 2em 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero .container .right .hero__image img {
+        margin-left: 0rem;
+    }
+
+    #hero .container .left {
+        width: 100%;
+        padding: 0em 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #hero .container .left h1 {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    #hero .container .left p {
+        font-size: .9rem;
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    #hero .container .left .email input {
+        display: none;
+    }
+
+    #hero .email {
+        padding: 0 .5rem;
+    }
+
+    button {
+        padding: 1em 4em;
+        white-space: nowrap;
+    }
+
+    #hero .container .left .video__div {
+        font-size: 1rem;
+        margin-bottom: 4rem;
+    }
+
+
+
+
+}
