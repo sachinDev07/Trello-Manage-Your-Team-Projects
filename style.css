@@ -1339,5 +1339,35 @@ button a {
 
 
 
+    /* Brand Section */
+
+    #brand {
+        width: 266px;
+    }
+
+    #brand .container {
+        max-width: 266px;
+        padding: 0 0;
+    }
+
+    #brand .container p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #brand .container .four__brands, #brand .container .two_brands {
+        flex-direction: column;
+    }
+
+    #brand .container .four__brands img {
+        width: 40%;
+    }
+
+    #brand .container .two_brands .zoom {
+        width: 40%;
+    }
+
+
+
 
 }
