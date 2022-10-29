@@ -1459,4 +1459,36 @@ button a {
 
 
 
+    /* Store Section */
+
+    #store {
+        width: 266px;
+        justify-content: flex-start;
+        padding: 3rem 0rem;
+    }
+
+    #store .container {
+        max-width: 266px;
+        flex-wrap: wrap;
+    }
+
+    #store .container h2 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        color: var(--dark);
+    }
+
+    #store .container .app__store img, #store .container .google__play img {
+        width: 100px;
+    }
+
+    #store {
+        width: 553px;
+        padding-bottom: .5rem;
+    }
+
+
+
+
 }
