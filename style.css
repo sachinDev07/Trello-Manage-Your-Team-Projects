@@ -1438,4 +1438,25 @@ button a {
 
 
 
+    /* Email Section */
+
+    #email {
+        width: 266px;
+    }
+
+    #email .container {
+        max-width: 266px;
+    }
+
+    #email .container .email-content input {
+        display: none;
+    }
+
+    button {
+        padding: 1em 5em;
+    }
+
+
+
+
 }
